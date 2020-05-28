@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "type": "kafkaTrigger",
+      "direction": "in",
+      "name": "event",
+      "topic": "topic-acoes",
+      "consumerGroup": "group-bigardi01",
+      "brokerList": "BrokerList",
+      "dataType": "string"
+    }
+  ],
+  "scriptFile": "../dist/KafkaTrigger/index.js"
+}
